@@ -1,0 +1,132 @@
+:root {
+  --purple-color: #883AE1;
+  --purple-bg-color: #E6D6FC;
+  --white-color: #FFFFFF;
+  --white-bg-color: #FAFAF9;
+  --grey-color: #6C727F;
+  --grey-dark-color: #20293A;
+  --grey-light-color: #E5EAF0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+} 
+
+body {
+  display: block;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  line-height: inherit;
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+/*------------------------------------*
+$CARD STYLE
+*------------------------------------*/
+
+.card {
+  width: max-content;
+  margin: auto;
+  margin-top: 164px;
+  border-radius: 16px;
+  background-color: var(--white-bg-color);
+  box-shadow: 20px 20px 50px 0px rgba(17, 23, 41, 0.05);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  max-width: 336px;
+}
+
+/*------------------------------------*
+$IMAGE STYLE
+*------------------------------------*/
+
+.card__image {
+  width: max-content;
+}
+
+.card__image--content {
+  width: 336px;
+  height: 152px;
+}
+
+/*------------------------------------*
+$TAG STYLE
+*------------------------------------*/
+
+.card__tag {
+  margin: 16px 0;
+  padding: 0;
+  background-color: var(--purple-bg-color);
+  border-radius: 16px;
+  border: none;
+}
+
+.card__tag--name {
+  margin: 0;
+  padding: 6px 16px;
+  color: var(--purple-color);
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+/*------------------------------------*
+$TITLE STYLE
+*------------------------------------*/
+
+.card__title {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.card__title--text {
+  font-size: 1.125rem;
+  font-weight: 800;
+  color: var(--grey-dark-color);
+}
+
+/*------------------------------------*
+$ CONTENT STLYE
+*------------------------------------*/
+
+.card__info {
+  margin: 0;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.card__info--text {
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: var(--grey-color);
+}
+
+/*------------------------------------*
+$AUTOR STYLE
+*------------------------------------*/
+
+.card__autor {
+  width: 368px;
+  margin: 0;
+  margin-left: -16px;
+  padding: 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--grey-light-color);
+}
+
+.card__autor--name {
+  font-size: 0.625rem;
+  font-weight: 400;
+  color: var(--grey-color);
+  margin-left: 16px;
+}
