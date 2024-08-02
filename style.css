@@ -35,6 +35,7 @@ $CARD STYLE
   border-radius: 16px;
   background-color: var(--white-bg-color);
   box-shadow: 20px 20px 50px 0px rgba(17, 23, 41, 0.05);
+  border: 1px solid black;
 }
 
 .content {
@@ -42,16 +43,13 @@ $CARD STYLE
   flex-direction: column;
   align-items: flex-start;
   padding: 16px;
+  padding-bottom: 20px;
   max-width: 336px;
 }
 
 /*------------------------------------*
 $IMAGE STYLE
 *------------------------------------*/
-
-.card__image {
-  width: max-content;
-}
 
 .card__image--content {
   width: 336px;
@@ -85,10 +83,10 @@ $TITLE STYLE
 .card__title {
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 
 .card__title--text {
+  width: 100%;
   font-size: 1.125rem;
   font-weight: 800;
   color: var(--grey-dark-color);
@@ -98,14 +96,11 @@ $TITLE STYLE
 $ CONTENT STLYE
 *------------------------------------*/
 
-.card__info {
+.card__info--text {
   margin: 0;
   margin-top: 6px;
   margin-bottom: 20px;
   padding: 0;
-}
-
-.card__info--text {
   font-size: 0.875rem;
   font-weight: 300;
   color: var(--grey-color);
